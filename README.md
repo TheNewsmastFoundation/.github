@@ -1,5 +1,6 @@
 <img width="290" height="88" alt="image" src="https://github.com/user-attachments/assets/39851137-a902-43e9-9f15-63858360d765" />
-The Newsmast Foundation helps mission-driven organisations create independent, ethical digital spaces through simple, affordable community apps. 
+
+The [Newsmast Foundation](https://newsmastfoundation.org/) helps mission-driven organisations create independent, ethical digital spaces through simple, affordable community apps. 
 
 We believe communities deserve online spaces without ads, algorithms or data exploitation, spaces that reflect their values and support genuine connection. 
 
