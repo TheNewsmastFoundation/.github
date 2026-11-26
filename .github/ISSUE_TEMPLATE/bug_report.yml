@@ -1,0 +1,61 @@
+name: Bug report
+description: Report something that is broken or behaves unexpectedly.
+title: "[Bug] "
+labels: ["bug", "needs-triage"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        **Security issues:** don't open a public issue. Report them privately as described in [SECURITY.md](https://github.com/TheNewsmastFoundation/.github/blob/main/SECURITY.md).
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: What happened?
+      description: A clear description of the problem.
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: What did you expect to happen?
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      placeholder: |
+        1. Go to …
+        2. Tap …
+        3. See error
+    validations:
+      required: true
+  - type: dropdown
+    id: platform
+    attributes:
+      label: Where does it happen?
+      multiple: true
+      options:
+        - iOS app
+        - Android app
+        - Web app
+        - Dashboard
+        - Server / API
+        - Other
+    validations:
+      required: true
+  - type: input
+    id: version
+    attributes:
+      label: App or server version
+      placeholder: "e.g. 2.3.1 (build 145), or commit SHA"
+  - type: input
+    id: client
+    attributes:
+      label: Client / instance affected
+      placeholder: "e.g. L'Humanité, Ouest-France, Newsmast"
+  - type: textarea
+    id: logs
+    attributes:
+      label: Screenshots, logs or error messages
+      description: Remove any personal data or tokens before pasting.

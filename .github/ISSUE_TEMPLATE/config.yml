@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Report a security vulnerability
+    url: https://github.com/TheNewsmastFoundation/.github/blob/main/SECURITY.md
+    about: Please report security issues privately. Don't open a public issue.
+  - name: Documentation
+    url: https://github.com/TheNewsmastFoundation/documentation
+    about: Check the setup and configuration guides before opening an issue.
